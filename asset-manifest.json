@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dynamic-skeleton-loader/static/css/main.e33eaf6a.css",
+    "main.js": "/dynamic-skeleton-loader/static/js/main.1137e91b.js",
+    "index.html": "/dynamic-skeleton-loader/index.html",
+    "main.e33eaf6a.css.map": "/dynamic-skeleton-loader/static/css/main.e33eaf6a.css.map",
+    "main.1137e91b.js.map": "/dynamic-skeleton-loader/static/js/main.1137e91b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33eaf6a.css",
+    "static/js/main.1137e91b.js"
+  ]
+}
