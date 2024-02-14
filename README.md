@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Dynamic Skeleton Loader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I have created a simple dynamic skeleton loader using css. This loader can be integrated with any component easily. A dropdown is provided to select the shape (rectangle or circle) of image component. This image component uses the same skeleton loader. 
+## What are skeleton loaders ?
+A skeleton loader, also known skeleton UI or content placeholder, is a design pattern used in user interfaces to provide users with visual feedback while content is being loaded. It consists of a simplified version of the layout or structure of the page or component being loaded, typically represented by empty boxes or lines that resemble the actual content's layout.
 
-## Available Scripts
+1. Placeholder Structure: Skeleton loaders mimic the structure of the content being loaded, including its layout, dimensions, and basic styling. This helps users understand where content will appear once it's loaded.
 
-In the project directory, you can run:
+2. Visual Feedback: By displaying a skeleton loader, users receive immediate visual feedback that the application is working on loading content, reducing the perception of loading times and providing a more seamless user experience.
 
-### `npm start`
+3. Progress Indication: Skeleton loaders can also serve as a progress indicator, showing users that content is loading gradually. As content loads, the skeleton structure is gradually replaced with actual content.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. User Engagement: Maintaining user engagement during loading times is crucial for retaining users' attention. Skeleton loaders help prevent users from feeling like the application is unresponsive or slow by providing a sense of progress and continuity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Implementation: Skeleton loaders can be implemented using HTML and CSS to create placeholder elements that resemble the content's layout. They can also be implemented dynamically using JavaScript frameworks to generate skeleton structures based on the expected content.
 
-### `npm test`
+Overall, skeleton loaders play an essential role in improving the perceived performance and user experience of web and mobile applications by providing visual feedback and maintaining user engagement during loading times.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## See it working on 
+https://shivangijb.github.io/dynamic-skeleton-loader/
