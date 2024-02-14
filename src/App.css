@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.cardBlock {
+  text-align: left;
+}
+.cardSkeleton > * {
+  margin-bottom: 20px;
+}
+.cardSkeletonImage,
+.cardImage {
+  align-items: center;
+  justify-items: baseline;
+}
+.cardImage {
+  height: 400px;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.cardSkeletonText {
+  margin: 10px;
+  height: 50px;
+}
+.rectangle {
+  width: 60%;
+}
+.circle {
+  width: 400px;
+  border-radius: 50%;
+}
+.dropdown {
+  margin: 20px;
+}
+.typeOfImage {
+  font-size: 16px;
+  padding: 10px;
+}
